@@ -10,6 +10,7 @@
 :root{
     /* --primaryColor : #FFE14D; */
     --primaryColor : #FDB243;
+    --startupColor : #FFE5B4;
     --secondaryColor : #E2565E;
 }
 
@@ -64,6 +65,14 @@ a{
     border-radius: 20px;
     cursor: pointer;
     transition: all 200ms ease;
+}
+
+.nav>.shopping-icon{
+    font-size: 1.5em;
+}
+
+.nav>.shopping-icon:hover{
+    font-size: 2em;
 }
 
 .nav>a>button:hover{

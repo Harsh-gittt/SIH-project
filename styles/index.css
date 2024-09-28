@@ -16,7 +16,7 @@
     align-items: center;
     background-color: black;
     z-index: -10;
-    color: var(--primaryColor);
+    color: var(--startupColor);
     font-size: 7vw;
     font-weight: 900;
     text-align: center;
