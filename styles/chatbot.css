@@ -8,96 +8,32 @@
     position: absolute;
     bottom: 0;
     display: flex;
-    padding-bottom: 1em;
-}
-
-.chatbot-wrapper{
-    height: 100%;
-    width: 50%;
-    margin: auto;
-    position: relative;
-    /* background-color: green; */
-}
-
-.message-wrapper{
-    width: 100%;
-    height: calc(100% - 80px);
-    padding: 1em;
-    display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: flex-start;
-    gap: 2em;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    scrollbar-width: none;
-    /* background-color: blanchedalmond; */
+    padding: 3em;
+    gap: 1em;
 }
 
-.chatbot-response{
-    align-self: start;
-    color: white;
-    max-width: 80%;
-    padding: 1em;
-    border-radius: 20px;
-    background-color: rgb(22, 22, 22);
+.tagline{
+    font-size: 4.5vw;
+    font-weight: 900;
+    color: var(--primaryColor);
+    margin-top: 1em;
 }
 
-.your-response{
-    align-self: end;
-    color: white;
-    min-width: 10%;
-    padding: 1em;
-    border-radius: 20px;
-    background-color: rgb(22, 22, 22);
+.content-wrapper>p{
+    font-size: 1em;
+    color: aliceblue;
 }
 
-
-.search-wrapper{
+.delly-image{
+    height: 30em;
     position: absolute;
     bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-}
 
-.search-bar{
-    height: 70%;
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px;
-    border: 1px solid darkgray;
-    border-radius: 30px;
-    overflow: hidden;
-
-    input{
-        width: 85%;
+    img{
         height: 100%;
-        outline: none;
-        border: none;
-        background-color: transparent;
-        color: white;
-        font-size: 1em;
-        padding: 0 1em;
     }
 }
 
-.search-icon{
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 0.3em;
-    font-size: 1.5em;
-    font-weight: 600;
-    background-color: var(--primaryColor);
-    color: black;
-    cursor: pointer;
-}
