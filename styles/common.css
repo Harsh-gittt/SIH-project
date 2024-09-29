@@ -53,7 +53,7 @@ a{
     font-size: 2em;
 }
 
-.nav>a>button{
+/* .nav>a>button{
     width: 8em;
     height: 3em;
     margin-left: 2.2em;
@@ -65,7 +65,7 @@ a{
     border-radius: 20px;
     cursor: pointer;
     transition: all 200ms ease;
-}
+} */
 
 .nav>.shopping-icon{
     font-size: 1.5em;
@@ -75,11 +75,23 @@ a{
     font-size: 2em;
 }
 
-.nav>a>button:hover{
+/* .nav>a>button:hover{
     background-color: var(--secondaryColor);
     color: white;
-}
+} */
 
 .nav-icons>a:hover{
     color: var(--primaryColor);
+}
+
+.delly-img{
+    height: 2.5em;
+    width: 2.5em;
+    border: none;
+    border-radius: 50%;
+}
+
+.delly-img:hover{
+    height: 3em;
+    width: 3em;
 }
